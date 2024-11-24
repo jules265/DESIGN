@@ -1,0 +1,12 @@
+.banner{
+    width: 50%;
+    height: 50vh;
+}
+.banner .list{
+    display: flex;
+}
+
+
+.list:hover .item :not(:hover){
+    filter: grayscale(1) blur(10px);
+}
